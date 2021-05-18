@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+.bg-teal , .btn-teal{
+    background: linear-gradient(45deg,lightgreen,orange) !important;
+}
+.text-teal{
+    color: blueviolet !important;
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    cursor: pointer;
+    border-radius: 10%
+}
+.carousel-caption{
+    bottom: 325px;
+}
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+         font-size: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
